@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Noether University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo-noether.png" alt="Logo de Noether University" class="logo">
+            <h1>Noether UNIVERSITY</h1>
+            <h2>Congreso</h2>
+            <p>Cree una cuenta</p>
+        </header>
+        <form action="#" method="post" class="register-form">
+            <label for="fullname">Nombre Completo</label>
+            <div class="input-group">
+                <img src="icon-user.png" alt="Icono de usuario" class="icon">
+                <input type="text" id="fullname" name="fullname" placeholder="Juan Pérez" required>
+            </div>
+            <label for="email">Correo Electrónico</label>
+            <div class="input-group">
+                <img src="icon-email.png" alt="Icono de correo electrónico" class="icon">
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+            </div>
+            <label for="password">Crear Contraseña</label>
+            <div class="input-group">
+                <img src="icon-lock.png" alt="Icono de contraseña" class="icon">
+                <input type="password" id="password" name="password" placeholder="********" required>
+            </div>
+            <label for="confirm-password">Confirmar Contraseña</label>
+            <div class="input-group">
+                <img src="icon-lock.png" alt="Icono de contraseña" class="icon">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="********" required>
+            </div>
+            <button type="submit" class="register-btn">Crear Cuenta</button>
+            <p class="login-link">¿Ya tienes cuenta? <a href="#">Iniciar Sesión</a></p>
+        </form>
+    </div>
+</body>
+</html>
